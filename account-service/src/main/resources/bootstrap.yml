@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: accountservice
+  profiles:
+    active:
+      default
+  cloud:
+    config:
+      enabled: true
